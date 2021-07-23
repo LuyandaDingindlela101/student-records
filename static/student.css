@@ -1,0 +1,49 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    width: 100%;
+    display: grid;
+    min-height: 100vh;
+	background: #3498db;
+    place-content: center;
+    font-family: sans-serif;
+}
+
+form {
+	width: 700px;
+}
+
+form h3 {
+    font-size: 30px;
+    color: white;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+form label {
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+}
+
+form input {
+	width: 45%;
+	padding: 12px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ffffff;
+}
+
+form button {
+	width: 100%;
+	padding: 15px;
+	color: #ffffff;
+	margin-top: 20px;
+	border-radius: 5px;
+	background: transparent;
+	border: 2px solid #ffffff;
+}
