@@ -17,7 +17,7 @@ def init_sqlite_db():
 init_sqlite_db()
 
 
-@app.route(("/"))
+@app.route("/")
 @app.route('/enter-new/')
 def enter_new_student():
     return render_template("student.html")
